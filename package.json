@@ -4,6 +4,8 @@
   "license": "MIT",
   "scripts": {
     "start": "nx serve",
+    "start:shell": "nx serve --project=shell --port=5000",
+    "start:remote": "nx serve --project=remote --port=3000",
     "build": "nx build",
     "test": "nx test"
   },
